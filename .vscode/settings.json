@@ -1,0 +1,12 @@
+{
+  "git.allowForcePush": true,
+  "git.autofetch": true,
+  "git.autoStash": true,
+  "git.enableCommitSigning": false,
+  "git.enableSmartCommit": true,
+  "git.fetchOnPull": true,
+  "git.followTagsWhenSync": true,
+  "git.ignoreLegacyWarning": true,
+  "git.ignoreLimitWarning": true,
+  "git.showPushSuccessNotification": true
+}
