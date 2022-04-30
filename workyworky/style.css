@@ -41,7 +41,7 @@ h2{
 
 #navbar__logo{
   background-color: #ff81ff;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-image: linear-gradient(to top, #eb4112 0%, #e250d4 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -53,13 +53,13 @@ h2{
   text-decoration: none;
   font-size: 2rem;
   position: absolute;
-  left: 4%;
-  top: .8rem;
+  left: 1%;
+  top: 1.2rem;
   /* right: -96%; */
   transform: translate(20%, 20%); 
 }
 
-.fa-gem{
+.fa-leaf{
   margin-right: 0.5rem;
 
 }
@@ -262,7 +262,7 @@ h2{
           }
 
     .main__content h2{
-      font-size: 4rem;
+      font-size: 2.75rem;
       background-color: #f77062;
       background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
       background-size: 100%;
@@ -277,6 +277,13 @@ h2{
       font-size: 1.5rem;
       font-weight: 700;
       color: #fff;
+      animation-name: mymove;
+      animation-duration: 5s;
+
+    }
+    @keyframes mymove {
+      from {left: 0px;}
+      to {left: 200px;}
     }
 
     .main__btn{

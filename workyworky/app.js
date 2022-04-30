@@ -6,6 +6,7 @@ menu.addEventListener('click', function(){
     menuLinks.classList.toggle('active');
 });
 
+// object.style.animationName="myNEWmove";
 
 var counterContainer = document.querySelector(".website-counter");
 var resetButton = document.querySelector("#reset");
